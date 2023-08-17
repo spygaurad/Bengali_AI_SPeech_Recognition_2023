@@ -22,8 +22,6 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 
 
-# huggingface_hub.login(token="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")
-
 
 
 # for competition data
