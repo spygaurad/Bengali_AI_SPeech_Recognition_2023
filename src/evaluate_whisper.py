@@ -19,7 +19,6 @@ import numpy as np
 import gc
 import evaluate
 import huggingface_hub
-huggingface_hub.login(token="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")
 
 language = "bengali"
 task = "transcribe"
