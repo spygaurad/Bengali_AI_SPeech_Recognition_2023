@@ -22,7 +22,6 @@ import bitsandbytes as bnb
 from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 
-# !wandb login 5cb0ff3e5bff0e75c84abccaa1404075d852e83d
 
 
 # Load your dataset from the CSV file into a DataFrame
