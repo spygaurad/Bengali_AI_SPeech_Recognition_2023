@@ -1,0 +1,57 @@
+
+  0%|                                                                                                                                                                               | 0/200 [00:00<?, ?it/s]
+  0%|                                                                                                                                                                               | 0/200 [00:00<?, ?it/s]train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Traceback (most recent call last):
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/soundfile.py", line 658, in __init__
+    self._file = self._open(file, mode_int, closefd)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/soundfile.py", line 1216, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening '/home/wiseyak/suraj/Bengali_ASR/competition_Dataset/train_mp3s/f031736279b7.mp3': System error.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train_whisper_peft.py", line 200, in <module>
+    trainer.train()
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/transformers/trainer.py", line 1787, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/accelerate/data_loader.py", line 556, in __iter__
+    next_batch, next_batch_info = self._fetch_batches(main_iterator)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/accelerate/data_loader.py", line 519, in _fetch_batches
+    batches.append(next(iterator))
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 671, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 34, in fetch
+    data.append(next(self.dataset_iter))
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/datasets/iterable_dataset.py", line 1353, in __iter__
+    for key, example in ex_iterable:
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/datasets/iterable_dataset.py", line 207, in __iter__
+    yield from self.generate_examples_fn(**self.kwargs)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/datasets/packaged_modules/generator/generator.py", line 30, in _generate_examples
+    for idx, ex in enumerate(self.config.generator(**gen_kwargs)):
+  File "train_whisper_peft.py", line 62, in dataset_generator
+    audio_array = librosa.load(audio_path)[0]
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/util/decorators.py", line 60, in __wrapper
+    return func(*args, **kwargs)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py", line 241, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/audioread/__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/audioread/rawread.py", line 59, in __init__
+    self._fh = open(filename, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/wiseyak/suraj/Bengali_ASR/competition_Dataset/train_mp3s/f031736279b7.mp3'

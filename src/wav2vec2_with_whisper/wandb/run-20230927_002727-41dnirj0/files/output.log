@@ -1,0 +1,242 @@
+  0%|                                                                                                                                                                               | 0/200 [00:00<?, ?it/s]train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/f031736279b7.mp3
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/e9edd1290895.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/8901e9cfb627.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/fc9353f6e065.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/872d96e34d3f.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/cb7525367392.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/b4b93d7aeea7.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/940dfac70945.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/daeaa9703b5d.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/e11c6bb12abf.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/2092d00479e0.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/b9890420c83b.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/278bffd8a1cf.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/5e7469d7e796.mp3
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/eb4fa6217a53.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/ad9d95b51360.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/8ad559a62d40.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/d9dbdd2e8682.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/2ba4baacb70a.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/0a4b686c7ca1.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/dd7c3c5fcf00.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/aa3a3a4da6fc.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/61b565ec8bf2.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/0e6558566dbb.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/8db88bce204c.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/414438f493f4.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/6fe10afd1543.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/38ce4eeabdd8.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/a7153700be0f.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/c829b114afc0.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/6809bed5245f.mp3
+**************************************************************************************************** /home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/e94a682c200f.mp3
+train_whisper_peft.py:62: UserWarning: PySoundFile failed. Trying audioread instead.
+  audio_array = librosa.load(audio_path)[0]
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+Traceback (most recent call last):
+  File "train_whisper_peft.py", line 200, in <module>
+    trainer.train()
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/accelerate/accelerator.py", line 1851, in backward
+    self.scaler.scale(loss).backward(**kwargs)
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "/home/wiseyak/suraj/valle_venv/lib/python3.8/site-packages/torch/autograd/__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
