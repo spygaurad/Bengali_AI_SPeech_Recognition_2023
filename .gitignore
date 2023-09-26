@@ -1,4 +1,5 @@
 models
 .env
 datasets
+src/wav2vec2_with_whisper/wandb/
 

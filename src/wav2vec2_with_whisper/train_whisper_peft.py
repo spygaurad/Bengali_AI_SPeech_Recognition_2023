@@ -25,7 +25,9 @@ from transformers import WhisperFeatureExtractor
 from transformers import WhisperTokenizer
 from dotenv import load_dotenv
 import huggingface_hub
-
+import warnings
+import warnings
+warnings.filterwarnings('ignore')
 # Load variables from .env file into the environment
 load_dotenv('../../.env')
 
@@ -56,11 +58,26 @@ tokenizer = WhisperTokenizer.from_pretrained(whisper_model_id, language="bengali
 processor = WhisperProcessor.from_pretrained(whisper_model_id, language="bengali", task="transcribe")
 
 
+'''
+# Replace valle_venv/lib64/python3.8/site-packages/transformers/models/whisper/tokenization_whisper.py line 431
+ 426     def build_inputs_with_special_tokens(self, token_ids_0, token_ids_1=None) -> List[int]:
+ 427         """Build model inputs from a sequence by appending eos_token_id."""
+ 428         if token_ids_1 is None:
+ 429             return self.prefix_tokens + token_ids_0 + [self.eos_token_id]
+ 430         # We don't expect to process pairs, but leave the pair logic for API consistency
+ 431         start_of_prev_id = self.all_special_ids[-3]
+ 432         return [start_of_prev_id] + token_ids_1 + self.prefix_tokens + token_ids_0 + [self.eos_token_id]
+ 433         #return self.prefix_tokens + token_ids_0 + token_ids_1 + [self.eos_token_id]
+ 434 
+
+'''
+
 def dataset_generator(df):
     for _, row in df.iterrows():
         audio_path = path_template.format(row["id"])
         # print("*"*100, audio_path)
         audio_array = librosa.load(audio_path)[0]
+        # print(tokenizer(row["sentence"], row["yellowking_preds"]))
         yield {
             "input_features": feature_extractor(audio_array, sampling_rate=16000).input_features[0], 
             "labels": tokenizer(row["sentence"], row["yellowking_preds"]).input_ids
@@ -108,11 +125,11 @@ class DataCollatorSpeechSeq2SeqWithPadding:
             labels = labels[:, 1:]
 
         # Replace initial prompt tokens with -100 to ignore them during loss calculation
-
+        
         bos_index = (labels == self.processor.tokenizer.bos_token_id).nonzero()[:, 1]
         prompt_mask = torch.arange(labels.shape[1]) < bos_index.unsqueeze(1)
         labels[prompt_mask] = -100
-
+        
         batch["labels"] = labels
         return batch
 
@@ -121,6 +138,7 @@ data_collator = DataCollatorSpeechSeq2SeqWithPadding(processor=processor)
 model = WhisperForConditionalGeneration.from_pretrained(whisper_model_id)
 model.config.forced_decoder_ids = None
 model.config.suppress_tokens = []
+model.enable_input_require_grads()
 
 model = prepare_model_for_int8_training(model)
 config = LoraConfig(r=32, lora_alpha=64, target_modules=["q_proj", "v_proj"], lora_dropout=0.05, bias="none")
@@ -135,16 +153,16 @@ training_args = Seq2SeqTrainingArguments(
     output_dir=model_save_path,  # change to a repo name of your choice
     per_device_train_batch_size=16,
     gradient_accumulation_steps=2,  # increase by 2x for every 2x decrease in batch size
-    learning_rate=5e-7,
-    warmup_steps=30,
-    max_steps=200,
+    learning_rate=1e-3,
+    warmup_steps=300,
+    max_steps=8000,
     gradient_checkpointing=True,
     fp16=True,
     evaluation_strategy="steps",
     per_device_eval_batch_size=16,
     generation_max_length=225,
-    save_steps=200,
-    eval_steps=200,
+    save_steps=4000,
+    eval_steps=4000,
     logging_steps=25,
     report_to="wandb",
     load_best_model_at_end=False,
@@ -155,7 +173,7 @@ training_args = Seq2SeqTrainingArguments(
     save_total_limit=5,
     remove_unused_columns=False,  # required as the PeftModel forward doesn't have the signature of the wrapped model's forward
     label_names=["labels"],  # same reason as above
-    push_to_hub = False,
+    push_to_hub = True,
 )
 
 
