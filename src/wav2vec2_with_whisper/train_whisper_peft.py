@@ -47,7 +47,7 @@ test_df = pd.read_csv('/home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/da
 test_df = test_df.loc[(test_df['sentence'].str.len() + test_df['yellowking_preds'].str.len()) < 180]
 test_df = test_df.loc[(test_df['sentence'].str.len() + test_df['yellowking_preds'].str.len()) > 18]
 
-train_sample = train_df[:256]
+train_sample = train_df
 eval_sample = test_df[:32]
 path_template = "/home/wiseyak/suraj/Bengali_AI_SPeech_Recognition_2023/datasets/competition_dataset/train_mp3s/{}.mp3"
 
@@ -161,8 +161,8 @@ training_args = Seq2SeqTrainingArguments(
     evaluation_strategy="steps",
     per_device_eval_batch_size=16,
     generation_max_length=225,
-    save_steps=4000,
-    eval_steps=4000,
+    save_steps=2000,
+    eval_steps=200,
     logging_steps=25,
     report_to="wandb",
     load_best_model_at_end=False,
